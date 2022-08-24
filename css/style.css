@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 3.7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 14px;
+}
+
+::selection {
+    background-color: #E5C07B;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #F2F2F2;
+    background-color: #272C34;
+}
+
+a {
+    color: #E5C07B;
+}
+
+.console {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 7px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: -17px;
+}
+
+.user {
+    color: #98C379;
+}
+
+.terminal {
+    color: #BF75D5;
+}
+
+.directory {
+    color: #E5C07B;
+}
+
+.user-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.console-output {
+    width: 100%;
+
+}
+
+.user-input-container #form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+    width: 100%;
+}
+
+.actual-console {
+    width: 100%;
+}
+
+.user-type {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    color: #F2F2F2;
+}
+
+.user-type:focus {
+    outline: none;
+    cursor: default;
+}
